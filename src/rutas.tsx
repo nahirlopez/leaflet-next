@@ -8,12 +8,12 @@ const App: React.FC = () => {
       <div>
         <nav>
           <ul>
-            {/* Enlace a la ruta /ubicacion con datos */}
+           
             <li><Link to="/ubicacion/valor1/valor2">Ir a Ubicación</Link></li>
           </ul>
         </nav>
 
-        {/* Definir la ruta y pasar los parámetros a la página Map */}
+      
         <Route path="/ubicacion/:valor1/:valor2" Component={Map} />
       </div>
     </Router>
